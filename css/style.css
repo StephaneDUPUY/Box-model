@@ -1,5 +1,5 @@
 body {
-	background-color: rgb(50, 147, 238);
+	background-color: rgb(126, 148, 245);
 	font-family: sans-serif;
 }
 
@@ -18,7 +18,6 @@ h2 {
 	text-transform: uppercase;
 	letter-spacing: -0.01em;
 	font-size: 1.3em;
-	color: blue;
 	text-align: center;
 }
 h3 {
