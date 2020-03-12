@@ -1,0 +1,111 @@
+body {
+	background-color: rgb(50, 147, 238);
+	font-family: sans-serif;
+}
+
+#container {
+	background-color: white;
+
+    /* to center bloc: */
+    width: 760px;
+	/* explicit width + margin auto*/
+    margin: 50px auto;
+    padding: 15px 20px;
+    /* total width 800px = width 760px + 20px padding-left + 20px padding-right */
+}
+
+h2 {
+	text-transform: uppercase;
+	letter-spacing: -0.01em;
+	font-size: 1.3em;
+	color: blue;
+	text-align: center;
+}
+h3 {
+	font-size: 1.2em;
+	font-weight: bold;
+}
+a {
+	color: #ed1243;
+	text-decoration: none;
+}
+a:hover {
+	border-bottom: 1px solid #ed1243;
+}
+p {
+
+}
+
+img {
+	/* images are inline content */
+	/* set as block to center*/
+	display: block;
+	/* to center element inside parent (element must be in lower width than parent) */
+	margin: auto;
+}
+
+/* image in main */
+#main img {
+	width: 80%;
+	border-radius: 20px;
+	border: 1px solid black;
+}
+
+/* HEADER */
+
+/* use inherit */
+#presentation {
+	text-align: center;
+}
+
+/* h1 in presentation */
+#presentation h1 {
+	margin: 15px 0 10px;
+	/* 300% from parent = size of web browser since parents without size */
+	font-size: 3em;
+}
+
+section h2 {
+	color: rgb(126, 148, 245);
+	margin: 10px 0;
+	text-transform: uppercase;
+	padding-bottom: 10px;
+	font-weight: bold;
+
+	/* Bordure */
+	border-bottom: 3px solid rgb(176, 188, 243);
+	/*border-width: 3px;
+	border-style: solid;
+	border-color: #ccc;*/
+}
+
+nav {
+	margin: 10px;
+	padding: 10px;
+	background-color: rgb(176, 188, 243);
+}
+nav a {
+	margin: 10px;
+}
+
+#main p {
+	font-family: Arial, sans-serif;
+	margin: 1em 0;
+	letter-spacing: 0.04em;
+	line-height: 1.4;
+	text-align: justify;
+}
+
+/* Footer contact */
+#contact {
+	padding: 12px 24px;
+	background: rgb(176, 188, 243);
+	font-size: .9em;
+	margin: 50px -20px -15px -20px;
+}
+
+#contact p {
+	width: 500px;
+	margin: auto;
+	text-align: center;
+}
